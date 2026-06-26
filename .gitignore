@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+env/
+
+# Dataset
+data/chest_xray/
+
+# Model files
+*.keras
+*.h5
+
+# Outputs
+outputs/
+
+# VS Code
+.vscode/
+
+# Operating System
+.DS_Store
+Thumbs.db
