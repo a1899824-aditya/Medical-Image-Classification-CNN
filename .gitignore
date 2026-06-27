@@ -16,8 +16,6 @@ data/chest_xray/
 *.keras
 *.h5
 
-# Outputs
-outputs/
 
 # VS Code
 .vscode/
