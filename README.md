@@ -25,6 +25,26 @@ The project also includes image preprocessing, class imbalance handling, model e
 
 ---
 
+## 🏆 Key Results
+
+| Metric | Result |
+|--------|--------|
+| Best Test Accuracy | **86.86%** |
+| Best AUC | **0.959** |
+| Best Custom CNN | **CNN V3** |
+| Final Selected Model | **Frozen ResNet50** |
+| Dataset | Chest X-ray Pneumonia (Kaggle) |
+| Classes | NORMAL vs PNEUMONIA |
+
+### Main Findings
+
+- Developed and compared **7 deep learning models**.
+- Custom CNN architectures were evaluated against **transfer learning (ResNet50)**.
+- The Frozen ResNet50 model achieved the best balance between accuracy and generalisation.
+- Fine-tuning deeper ResNet layers increased overfitting and reduced test performance.
+- A Streamlit application was developed for real-time prediction of chest X-ray images.
+
+
 ## 🎯 Objectives
 
 - Develop custom CNN architectures for pneumonia detection
@@ -166,6 +186,20 @@ Comparison of AUC scores across all implemented models.
   <img src="outputs/model_auc_comparison.png" width="750">
 </p>
 
+
+### Model Performance Summary
+
+| Model | Accuracy | AUC |
+|-------|---------:|----:|
+| Baseline CNN | 80.00% | 0.911 |
+| CNN V1 | 76.88% | - |
+| CNN V2 | 80.94% | 0.936 |
+| CNN V3 | 85.78% | 0.941 |
+| Class Weight CNN | 80.94% | - |
+| Frozen ResNet50 | **86.86%** | 0.952 |
+| Clean Frozen ResNet50 | 77.56% | **0.959** |
+| Last-5 ResNet50 | 77.56% | 0.957 |
+| Last-10 ResNet50 | 75.64% | 0.956 |
 
 ---
 
