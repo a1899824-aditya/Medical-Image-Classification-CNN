@@ -6,7 +6,8 @@ from tensorflow.keras.preprocessing import image
 from tensorflow.keras.applications.resnet50 import preprocess_input
 
 # Load model
-model = load_model("models/frozen_resnet50_winner.keras")
+
+model = load_model("models/streamlit_model.keras", compile=False)
 
 # Page title
 st.title("🫁 Pneumonia Detection using ResNet50")
