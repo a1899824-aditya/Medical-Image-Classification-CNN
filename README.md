@@ -16,6 +16,13 @@ Several custom Convolutional Neural Networks (CNNs) were designed and compared w
 
 The project also includes image preprocessing, class imbalance handling, model evaluation, threshold analysis and deployment through a Streamlit application.
 
+![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange?logo=tensorflow)
+![Keras](https://img.shields.io/badge/Keras-Deep%20Learning-red?logo=keras)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange?logo=scikitlearn)
+![Streamlit](https://img.shields.io/badge/Streamlit-Web%20App-red?logo=streamlit)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 ---
 
 ## 🎯 Objectives
