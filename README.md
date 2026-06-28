@@ -40,7 +40,13 @@ The project also includes image preprocessing, class imbalance handling, model e
 
 **Dataset**
 
-Chest X-Ray Images (Pneumonia)
+### Sample Chest X-ray Images
+
+These are example chest X-ray images from the dataset used to train the models.
+
+<p align="center">
+  <img src="outputs/dataset_samples.png" width="750">
+</p>
 
 Source:
 
@@ -103,6 +109,15 @@ The following models were implemented and evaluated.
 
 Training and validation accuracy for the initial CNN model.
 
+
+## Training Performance
+
+Training and validation accuracy for the baseline CNN.
+
+<p align="center">
+  <img src="outputs/baseline_training.png" width="750">
+</p>
+
 ---
 
 # 🎯 CNN V3 Evaluation
@@ -143,6 +158,15 @@ Transfer learning using a frozen ResNet50 provided the strongest balance between
 
 ![AUC Comparison](outputs/model_auc_comparison.png)
 
+## Model Comparison
+
+Comparison of AUC scores across all implemented models.
+
+<p align="center">
+  <img src="outputs/model_auc_comparison.png" width="750">
+</p>
+
+
 ---
 
 ## 📋 Performance Summary
@@ -164,6 +188,15 @@ Transfer learning using a frozen ResNet50 provided the strongest balance between
 
 **Frozen ResNet50**
 
+## Best Model (Frozen ResNet50)
+
+Confusion matrix of the final selected model.
+
+<p align="center">
+  <img src="outputs/resnet50_confusion_matrix.png" width="650">
+</p>
+
+
 Reasons for selection:
 
 - Highest overall test accuracy
@@ -171,6 +204,15 @@ Reasons for selection:
 - Better generalisation than fine-tuned models
 - Stable validation performance
 - Lower overfitting
+
+## ROC Curve
+
+Receiver Operating Characteristic (ROC) curve for the final model.
+
+<p align="center">
+  <img src="outputs/resnet50_roc_curve.png" width="650">
+</p>
+
 
 ---
 
