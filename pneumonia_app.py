@@ -7,7 +7,7 @@ from tensorflow.keras.applications.resnet50 import preprocess_input
 
 # Load model
 
-model = load_model("models/streamlit_model.keras", compile=False)
+model = load_model("models/baseline_cnn_model.h5", compile=False)
 
 # Page title
 st.title("🫁 Pneumonia Detection using ResNet50")
